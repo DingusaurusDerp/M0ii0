@@ -66,11 +66,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT(
   //,-----------------------------------------------------------------------------------------------------------.
-       KC_GRV,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5, XXXXXX,  XXXXXX, KC_LBRC, KC_RBRC, KC_BSLS, _______,
+       KC_GRV,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_HOME, KC_PGUP,  KC_UP, KC_PGDN, KC_END, KC_PRNTSCRN, _______,
   //|--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
-      _______,   KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10, XXXXXXX, XXXXXXX, XXXXXXX, KC_SCLN, KC_QUCT,
+      _______,   KC_F5,   KC_F6,   KC_F7,   KC_F8,  XXXXXX, KC_LEFT, KC_DOWN, KC_RIGHT, KC_SCLN, KC_QUCT,
   //|--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
-      _______,  KC_F11,  KC_F12,  KC_ESC,  KC_TAB,   XXXXXX,  XXXXXXX, XXXXXXX,  XXXXXXX,  KC_GRV, KC_RSFT,
+      _______,  KC_F9,  KC_F10,  KC_F11,  KC_F12,   XXXXXX,  XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXX, KC_RSFT,
   //|--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
                _______, _______,          _______,          KC_MLAD,          _______, _______
   //`-----------------------------------------------------------------------------------------------------------'
@@ -78,9 +78,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_RAISE] = LAYOUT(
   //,-----------------------------------------------------------------------------------------------------------.
-       KC_ESC,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0, KC_BSLS,
+       KC_ESC,    XXXXXX,    XXXXXX,    XXXXXX,    XXXXXX,    XXXXXX,    XXXXXX,    XXXXXX,    XXXXXX,    KC_LBRC,    KC_RBRC, KC_BSLS,
   //|--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
-      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, _______,
+      _______,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,   KC_8, KC_9, KC_0,
   //|--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
       _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_MINS, KC_EQUAL, KC_COMM,  KC_DOT, KC_SLSF,
   //|--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
@@ -90,11 +90,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_ADJUST] = LAYOUT(
   //,-----------------------------------------------------------------------------------------------------------.
-      _______, QK_BOOT,  RGBRST, AG_NORM, AG_SWAP, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC_INS, KC_PSCR, _______,
+      _______, XXXXXXX,  XXXXXX, XXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXX, XXXXXX, _______,
   //|--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
-      KC_CAPS, RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, XXXXXXX, KC_HOME, KC_PGDN, KC_PGUP,  KC_END,  KC_NUM,
+      XXXXXX, XXXXXX, XXXXXX, XXXXXX, XXXXXX, XXXXXXX, XXXXXX, XXXXXX, XXXXXX,  XXXXXX,  XXXXXX,
   //|--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
-      _______, RGB_MOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      _______, XXXXXX, XXXXXX, XXXXXX, XXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
                _______, _______,          _______,          _______,          _______, _______
   //`-----------------------------------------------------------------------------------------------------------'
